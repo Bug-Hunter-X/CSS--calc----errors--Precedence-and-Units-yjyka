@@ -1,0 +1,10 @@
+/* Corrected CSS using explicit units and proper parentheses where necessary */
+#element {
+  width: calc(100% - 10px);
+  height: calc(50% + 2em);
+  margin: calc((100vw - 800px) / 2);
+}
+/*Another example where parentheses clarifies the order of operations */
+#anotherElement {
+  width: calc( (100% - 20px) / 2 );
+} 
